@@ -9,9 +9,9 @@ public class BumperController : MonoBehaviour
     public Color color;
 
     public Renderer renderer;
-    public Animator animator;
+    private Animator animator;
 
-    private void start()
+    private void Start()
     {
         renderer = GetComponent<Renderer>();
         animator = GetComponent<Animator>();
