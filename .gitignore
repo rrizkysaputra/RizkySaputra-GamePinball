@@ -4,5 +4,5 @@ Logs/*
 Temp/*
 
 .vsconfig
-.csproj
+*.csproj
 *.sln
